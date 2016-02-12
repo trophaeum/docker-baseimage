@@ -1,0 +1,51 @@
+deb http://de.archive.ubuntu.com/ubuntu/ wily main
+deb-src http://de.archive.ubuntu.com/ubuntu/ wily main
+
+deb http://de.archive.ubuntu.com/ubuntu/ xenial main restricted universe multiverse 
+deb-src http://de.archive.ubuntu.com/ubuntu/ xenial main restricted universe multiverse 
+
+deb http://de.archive.ubuntu.com/ubuntu/ xenial-security main restricted universe multiverse 
+deb http://de.archive.ubuntu.com/ubuntu/ xenial-updates main restricted universe multiverse 
+deb http://de.archive.ubuntu.com/ubuntu/ xenial-proposed main restricted universe multiverse 
+deb http://de.archive.ubuntu.com/ubuntu/ xenial-backports main restricted universe multiverse 
+deb-src http://de.archive.ubuntu.com/ubuntu/ xenial-security main restricted universe multiverse 
+deb-src http://de.archive.ubuntu.com/ubuntu/ xenial-updates main restricted universe multiverse 
+deb-src http://de.archive.ubuntu.com/ubuntu/ xenial-proposed main restricted universe multiverse 
+deb-src http://de.archive.ubuntu.com/ubuntu/ xenial-backports main restricted universe multiverse 
+
+deb http://archive.canonical.com/ubuntu wily partner
+deb-src http://archive.canonical.com/ubuntu wily partner
+
+deb http://download.mono-project.com/repo/debian alpha main
+deb-src http://download.mono-project.com/repo/debian alpha main
+deb http://download.mono-project.com/repo/debian beta main
+deb-src http://download.mono-project.com/repo/debian beta main
+deb http://download.mono-project.com/repo/debian nightly main
+deb-src http://download.mono-project.com/repo/debian nightly main
+
+deb http://liquorix.net/debian sid main
+deb-src http://liquorix.net/debian sid main
+
+deb http://ppa.launchpad.net/stebbins/handbrake-releases/ubuntu vivid main
+deb-src http://ppa.launchpad.net/stebbins/handbrake-releases/ubuntu vivid main
+
+deb http://llvm.org/apt/wily/ llvm-toolchain-wily main
+deb-src http://llvm.org/apt/wily/ llvm-toolchain-wily main
+# 3.6 
+deb http://llvm.org/apt/wily/ llvm-toolchain-wily-3.6 main
+deb-src http://llvm.org/apt/wily/ llvm-toolchain-wily-3.6 main
+# 3.7 
+deb http://llvm.org/apt/wily/ llvm-toolchain-wily-3.7 main
+deb-src http://llvm.org/apt/wily/ llvm-toolchain-wily-3.7 main
+
+deb http://mirror.netcologne.de/mariadb/repo/10.1/ubuntu vivid main
+deb-src http://mirror.netcologne.de/mariadb/repo/10.1/ubuntu vivid main
+
+deb http://apt.postgresql.org/pub/repos/apt/ utopic-pgdg main 9.4 9.5
+deb-src http://apt.postgresql.org/pub/repos/apt/ utopic-pgdg main 9.4 9.5
+
+#deb http://deb.i2p2.no/ utopic main
+#deb-src http://deb.i2p2.no/ utopic main
+
+deb http://deb.torproject.org/torproject.org tor-nightly-master-vivid main
+deb-src http://deb.torproject.org/torproject.org tor-nightly-master-vivid main
